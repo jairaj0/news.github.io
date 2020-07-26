@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+html{
+    /* background-color: #424242; */
+    background-color: #000;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+a{
+    color: #fff;
+}
+.background-video{
+    position: absolute;
+    
+    z-index: -1;
+    
+}
+/*.home1{
+    background-image: url(circle.png);
+    background-position: right;
+    background-origin: border-box;
+}
+/* .home2{
+    background-image: url(minicircle.png);
+    background-position: center;
+    background-attachment: scroll;
+} */
+/* .home3{
+    background-image: url(squar.png);
+    background-position: center;
+    background-attachment: fixed;
+} */ 
+
+/* first view start */
+
+.top-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+.home-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.brand-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+
+.second-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    font-size: 2rem;
+    color: aqua;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+    min-width: 60%;
+    max-width: 90%;
+}
+.brand-search{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    
+    
+}
+select{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 800;
+    background-color: transparent;
+    border-left: 4px solid aqua;
+    border-radius: 20px;
+    padding-left: .5rem;
+}
+.slidebar{
+   
+    width: 80%;
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    
+}
+.slide img{
+    width: 100%;
+}
+.letest-news{
+    text-align: center;
+    padding: 2rem 0;
+}
+.letest-news h1{
+    font-size:2rem;
+    letter-spacing: 1.5rem;
+    color: aqua;
+}
+.letest-news h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 1rem;
+}
+
+.news-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    word-wrap: wrap;
+}
+.news-boxes{
+    background-image: url(group.jpg);
+    background-size: cover;
+    width: 30vw;
+    height:40vh ;
+    
+}
+
+/* first view end */
+
+
